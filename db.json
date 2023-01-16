@@ -1,0 +1,61 @@
+{
+	"data": [{
+			"id": 1,
+			"platformNumber": "Platform 2",
+			"trainNumber": "12345",
+			"trainName": "Nellai SF Express",
+			"arrivalTime": "14:00",
+			"departureTime": "14:10",
+			"coachPosition": [{
+					"serialNo": 1,
+					"coachNumber": "S1"
+				},
+				{
+					"serialNo": 2,
+					"coachNumber": "S2"
+				},
+				{
+					"serialNo": 3,
+					"coachNumber": "S3"
+				},
+				{
+					"serialNo": 4,
+					"coachNumber": "S4"
+				},
+				{
+					"serialNo": 5,
+					"coachNumber": "S5"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"platformNumber": "Platform 3",
+			"trainNumber": "12346",
+			"trainName": "Podhigai SF Express",
+			"arrivalTime": "17:30",
+			"departureTime": "17:35",
+			"coachPosition": [{
+					"serialNo": 1,
+					"coachNumber": "S1"
+				},
+				{
+					"serialNo": 2,
+					"coachNumber": "S2"
+				},
+				{
+					"serialNo": 3,
+					"coachNumber": "S3"
+				},
+				{
+					"serialNo": 4,
+					"coachNumber": "S4"
+				},
+				{
+					"serialNo": 5,
+					"coachNumber": "S5"
+				}
+			]
+		}
+	]
+}
