@@ -1,36 +1,204 @@
 {
-        "data": [
-        {
-            "id": 1,
-            "platformId": 1,
-            "trainId": 1,
-            "arrivalTime": "14:00",
-            "departureTime": "14:10",
-            "isActive": true,
-            "createdAt": "2023-01-17T19:49:21.565Z",
-            "updatedAt": "2023-01-17T19:49:21.565Z",
-            "assignplatforms": {
-                "id": 1,
-                "number": 1,
-                "type": 1
+   "data":[
+      {
+         "timeStamp":"1/22/2023, 10:46:24 PM",
+         "code":200,
+         "status":"OK",
+         "data":[
+            {
+               "id":3,
+               "platformId":3,
+               "trainId":3,
+               "scheduledArrivalTime":"12:20",
+               "scheduledDepartureTime":"12:25",
+               "expectedArrivalTime":"12:25",
+               "expectedDepartureTime":"12:30",
+               "arriveDepartureStatus":"D",
+               "isActive":true,
+               "createdAt":"2023-01-22T17:14:14.124Z",
+               "updatedAt":"2023-01-22T17:14:14.124Z",
+               "assignplatforms":{
+                  "id":3,
+                  "number":3,
+                  "type":1
+               },
+               "assigntrains":{
+                  "id":3,
+                  "number":"12543",
+                  "name":"Thendral",
+                  "coaches":[
+                     {
+                        "id":5,
+                        "serialNumber":1,
+                        "coachNumber":"S1"
+                     },
+                     {
+                        "id":6,
+                        "serialNumber":2,
+                        "coachNumber":"S2"
+                     },
+                     {
+                        "id":7,
+                        "serialNumber":3,
+                        "coachNumber":"S3"
+                     },
+                     {
+                        "id":8,
+                        "serialNumber":4,
+                        "coachNumber":"S4"
+                     },
+                     {
+                        "id":9,
+                        "serialNumber":5,
+                        "coachNumber":"S5"
+                     },
+                     {
+                        "id":10,
+                        "serialNumber":6,
+                        "coachNumber":"S6"
+                     },
+                     {
+                        "id":11,
+                        "serialNumber":7,
+                        "coachNumber":"S7"
+                     },
+                     {
+                        "id":12,
+                        "serialNumber":8,
+                        "coachNumber":"S8"
+                     },
+                     {
+                        "id":13,
+                        "serialNumber":9,
+                        "coachNumber":"S9"
+                     },
+                     {
+                        "id":14,
+                        "serialNumber":10,
+                        "coachNumber":"S10"
+                     },
+                     {
+                        "id":15,
+                        "serialNumber":11,
+                        "coachNumber":"S11"
+                     },
+                     {
+                        "id":16,
+                        "serialNumber":12,
+                        "coachNumber":"S12"
+                     },
+                     {
+                        "id":17,
+                        "serialNumber":13,
+                        "coachNumber":"S13"
+                     },
+                     {
+                        "id":18,
+                        "serialNumber":14,
+                        "coachNumber":"S14"
+                     },
+                     {
+                        "id":19,
+                        "serialNumber":15,
+                        "coachNumber":"S15"
+                     },
+                     {
+                        "id":20,
+                        "serialNumber":16,
+                        "coachNumber":"S16"
+                     },
+                     {
+                        "id":21,
+                        "serialNumber":17,
+                        "coachNumber":"S17"
+                     },
+                     {
+                        "id":22,
+                        "serialNumber":18,
+                        "coachNumber":"S18"
+                     },
+                     {
+                        "id":23,
+                        "serialNumber":19,
+                        "coachNumber":"D1"
+                     },
+                     {
+                        "id":24,
+                        "serialNumber":20,
+                        "coachNumber":"D2"
+                     },
+                     {
+                        "id":25,
+                        "serialNumber":21,
+                        "coachNumber":"D3"
+                     },
+                     {
+                        "id":26,
+                        "serialNumber":22,
+                        "coachNumber":"D4"
+                     },
+                     {
+                        "id":27,
+                        "serialNumber":23,
+                        "coachNumber":"D5"
+                     },
+                     {
+                        "id":28,
+                        "serialNumber":24,
+                        "coachNumber":"D6"
+                     },
+                     {
+                        "id":29,
+                        "serialNumber":25,
+                        "coachNumber":"D7"
+                     },
+                     {
+                        "id":30,
+                        "serialNumber":26,
+                        "coachNumber":"UR"
+                     }
+                  ]
+               }
             },
-            "assigntrains": {
-                "id": 1,
-                "number": "12345",
-                "name": "Nellai SF Express",
-                "coaches": [
-                    {
-                        "id": 1,
-                        "serialNumber": 10,
-                        "coachNumber": "S10"
-                    },
-                    {
-                        "id": 2,
-                        "serialNumber": 11,
-                        "coachNumber": "S11"
-                    }
-                ]
+            {
+               "id":2,
+               "platformId":2,
+               "trainId":2,
+               "scheduledArrivalTime":"08:40",
+               "scheduledDepartureTime":"09:45",
+               "expectedArrivalTime":"08:34",
+               "expectedDepartureTime":"03:35",
+               "arriveDepartureStatus":"",
+               "isActive":true,
+               "createdAt":"2023-01-22T14:02:59.513Z",
+               "updatedAt":"2023-01-22T14:02:59.513Z",
+               "assignplatforms":{
+                  "id":2,
+                  "number":2,
+                  "type":1
+               },
+               "assigntrains":{
+                  "id":2,
+                  "number":"12346",
+                  "name":"Podhigai",
+                  "coaches":[
+                     {
+                        "id":3,
+                        "serialNumber":1,
+                        "coachNumber":"D1"
+                     },
+                     {
+                        "id":4,
+                        "serialNumber":2,
+                        "coachNumber":"D2"
+                     }
+                  ]
+               }
             }
-        }
-    ]
+         ],
+         "currentPage":0,
+         "totalItems":28,
+         "totalPages":1
+      }
+   ]
 }
